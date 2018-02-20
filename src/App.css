@@ -1,0 +1,51 @@
+.App {
+  margin: 6px;
+  /* background: #eee; */
+}
+
+.item {
+  /* background: #eee; */
+  /* outline: 1px solid red; */
+  display: flex;
+  align-items: flex-start;
+  /* margin-bottom: 6px; */
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item .name {
+  margin-top: 6px;
+  font-size: 18px;
+  /* padding-top: 12px; */
+  text-transform: uppercase;
+  /* outline: 1px solid green; */
+}
+
+.item-body {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.item img {
+  width: 100px;
+  display: block;
+  height: auto;
+}
+
+.item-actions {
+  padding-top: 6px;
+}
+.actions {
+  color: #999;
+  font-size: 18px;
+}
+
+.actions strong {
+  padding: 0 6px;
+}
+
+button {
+  min-width: 40px;
+  margin: 6px;
+}
